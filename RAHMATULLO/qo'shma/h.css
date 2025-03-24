@@ -1,0 +1,59 @@
+h3 {
+    color: brown;
+}
+
+.text1 {
+    color: yellow;
+}
+
+.text2 {
+    color: teal;
+}
+
+#text3 {
+    color: violet;
+}
+
+#text4 {
+    color: cornflowerblue;
+}
+
+div {
+    color: tomato;
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+    background-image: url(https://mega-print23.ru/thumb/2/LXHhcM9pz42TOLBVO66Psg/r/d/2022-sivol-goda-kartinka.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text5 {
+    color: teal;
+}
+
+#text5 {
+    color: cornflowerblue;
+}
+
+span {
+    color: aquamarine;
+}
+
+h6 {
+    font-size: 25px;
+    color: rgb(11, 191, 38);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+
+
+

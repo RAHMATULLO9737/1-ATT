@@ -1,0 +1,41 @@
+.box {
+  width: 375px;
+  height: 812px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.box .cadr1 {
+  width: 324px;
+  height: 368px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.box .cadr1 p {
+  font-size: 20px;
+  color: #7C6DDB;
+}
+.box .cadr1 h1 {
+  font-size: 32px;
+  color: #7C6DDB;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.box .cadr2 {
+  width: 315px;
+  height: 60px;
+}
+.box .cadr2 button {
+  width: 315px;
+  height: 60px;
+  border-radius: 99px;
+  background: linear-gradient(to right #9DCEFF, #92A3FD);
+  box-shadow: 0 0 2px 0 rgba(149, 173, 254, 0.3019607843);
+  border: none;
+  border-radius: 99px;
+}/*# sourceMappingURL=hard.css.map */

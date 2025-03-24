@@ -1,0 +1,209 @@
+.head{
+    width: 100%;
+    height: 1022px;
+    background-color: #D7D7D7;
+    display: flex;
+
+}
+.head .logo{
+    height: 35%;
+    height: 1022px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.head .logo .text{
+    width: 100%;
+    margin-left: 150px;
+}
+.head .logo .text img{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.head .logo .text h4{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    padding: 0;
+}
+.head .logo .text h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.head .logo .text{
+    font-size: 25px;
+    font-weight: 800;
+    color:#909090;
+}
+.head .logo .logos{
+    width: 60%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head .logo .logos span{
+    width: 61px;
+    height: 56px;
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 2px 2px #959595;
+}
+.head .black{
+    width: 65%;
+    height: 1022px;
+    background-image: url(rasm/Rectangle\ 67.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.head .black .category{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head .black .category p{
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.head .black .category button{
+    width: 147px;
+    height: 46px;
+    border-radius: 30px;
+    border: 4px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* ------------------------------------------------------------- */
+.it{
+    width: 100%;
+    height: 413px;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: space-around;
+}
+.it .text{
+    width: 50%;
+    height: 89px;
+}
+.it .text h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.it .text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.it .text button{
+    width: 139px;
+    height: 32px;
+    border-left:2px solid #FFFFFF ;
+    border-right:2px solid #FFFFFF ;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #1d1d1d;
+    border-top: none;
+    border-bottom: none;
+}
+.it .img{
+    width: 30%;
+    height: 313px;
+}
+.img .img img{
+    width: 100%;
+    height: 413px;
+}
+/* ------------------------------------------ */
+.about{
+    width: 100%;
+    height: 3017px;
+    background-color:rgb(169, 167, 167);
+    /* display: flex;
+    justify-items: center;
+    align-items: center; */
+}
+.about .text{
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+}
+.about .text span button{
+    width: 404px;
+    height: 107px;
+    border: 8px solid black;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    background-color:rgb(169, 167, 167) ;
+    align-items: center;
+    justify-items: center;
+}
+.about .text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #050505;
+    text-align: center;
+}
+.about .text button{
+    width: 139px;
+    height: 32px;
+    color:#000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-top: none;
+    border-bottom: none;
+    font-size: 15px;font-weight: 600;
+    background-color:rgb(169, 167, 167) ;
+}
+.about .text1 .tex1{
+    width: 516px;
+    height: 177px;
+}
+.about .text1 .tex1 img{
+width: 68px;
+height: 70px;
+}
+.about .text1 .tex1 h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000
+}
+.about .text1 .tex1 p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000
+    
+}
+.about .text1 .tex2 h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000
+}
+.about .text1 .tex2 p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000
+}
+.about button{
+    width: 404px;
+    height: 107px;
+    border: 8px solid #000000;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    background-color:rgb(169, 167, 167) ;
+}
+

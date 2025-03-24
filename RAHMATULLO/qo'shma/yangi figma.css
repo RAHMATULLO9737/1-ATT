@@ -1,0 +1,329 @@
+.head {
+    width: 100%;
+}
+
+.head .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head .navbar .sub-box {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head .navbar .sub-box p {
+    font-size: 18px;
+    color: #6C6C6C;
+}
+
+.head .navbar .sub-box span {
+    font-size: 18px;
+    color: #6C6C6C;
+}
+
+.section {
+    width: 100%;
+    height: 700px;
+    background-image: url(rasm/image\ \(32\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .text .p1 {
+    font-size: 14px;
+    color: #D77474;
+    font-weight: 700;
+}
+
+.section .text .h1 {
+    font-size: 48px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.section .text .p2 {
+    font-size: 14px;
+    color: #6C6C6C;
+}
+
+.section .text button {
+    width: 201px;
+    height: 62px;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #AC1313;
+    border: none;
+}
+
+/* -------------------------------------------- */
+
+
+.category {
+    width: 100%;
+    height: 969px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.category .product {
+    width: 100%;
+    height: 117px;
+    text-align: center;
+}
+
+.category .product p {
+    font-size: 14px;
+    color: #D77474;
+    font-weight: 700;
+}
+
+.category .product h1 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.category .category-name {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.category .category-name .yellow {
+    background-image: url(rasm/Rectangle.png);
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category .category-name .orange {
+    background-image: url(rasm/Rectangle\ \(1\).png);
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category .category-name .red {
+    background-image: url(rasm/Rectangle\ \(2\).png);
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category .category-name .yellow p {
+    position: absolute;
+    margin-top: 120px;
+    color: #FFFFFF;
+}
+
+.category .category-name .orange p {
+    position: absolute;
+    margin-top: 120px;
+    color: #FFFFFF;
+}
+
+.category .category-name .red p {
+    position: absolute;
+    margin-top: 120px;
+    color: #FFFFFF;
+}
+
+.sub-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-text .text1,
+.text2 h1 {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.sub-text .text1,
+.text2 p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ------------------------------------------------ */
+.kuza {
+    width: 100%;
+    height: 1033px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+
+.kuza .kz-1 {
+    width: 100%;
+    height: 224px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kuza .kz-1.text1 {
+    width: 396px;
+    height: 204px;
+}
+
+.kuza .kz-1 .text1 h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.kuza .kz-1 .text1 p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+.kuza .kz-1 .text1 h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.kuza .kz-1 .d1 {
+    width: 500px;
+    height: 220px;
+    background-color: #F5F5F5;
+}
+
+.kuza .kz-1 img {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: -700px;
+}
+
+.kuza .kz-2 img {
+    position: absolute;
+    margin-top: -100px;
+    margin-right: -700px;
+}
+
+.kuza .kz-2 {
+    width: 100%;
+    height: 248px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.kuza .kz-2 .d2 {
+    width: 500px;
+    height: 220px;
+    background-color: #F5F5F5;
+}
+
+.kuza .kz-2.text2 {
+    width: 396px;
+    height: 228px;
+}
+
+.kuza .kz-2 .text2 h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.kuza .kz-2 .text2 p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+.kuza .kz-2 .text2 h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+}
+.vrt{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.vrt .vertical{
+width: 233px;
+height: 34px;
+color: #DBDBDB;
+font-size: 20px;
+rotate: -90deg;
+text-align: center;
+}
+
+/* ----------------------------------------------------- */
+.our {
+    width: 100%;
+    height: 1697px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.our .text {
+    width: 100%;
+    height: 94px;
+    text-align: center;
+}
+
+.our .text p {
+    font-size: 14px;
+    color: #D77474;
+    font-weight: 700;
+}
+
+.our .text h1 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+}
+
+
+.our .imgg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1172px;
+    height: 1200px;
+    justify-content: space-around;
+}
+.our .imgg .immg{
+    width: 371px;
+    height: 580px;
+}
+.our .imgg .immg .p1{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+.our .imgg .immg .p1 span{
+    color: #000000;
+    font-size: 14px;
+}
+.our .imgg button{
+    color: #FFFFFF;
+    background-color: #AC1313;
+    width: 214px;
+    height: 62px;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: end;
+}

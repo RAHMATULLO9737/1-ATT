@@ -1,0 +1,35 @@
+div{
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    background-color: aquamarine;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px ; 
+}
+img{
+    width: 500px;
+    height: 400px;
+}
+button{
+    border: none;
+}
+.ttt{
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    background-color: aquamarine;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 10px blue;
+   
+}
+h1{
+    font-size: 50px;
+    text-shadow:10px 10px 10px rgb(24, 24, 23) ;
+    padding-top: 80px;
+}
+.aa{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    background: linear-gradient(blue 30%, red 30% red 33%, white 33%,white 60%,red 60% red 63%, green 100% );
+}

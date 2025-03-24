@@ -1,0 +1,274 @@
+.logo {
+  width: 100%;
+  height: 101px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo .l2 input {
+  width: 358px;
+  height: 48px;
+  border: 0.5px solid #ffffff;
+  border-radius: 184px;
+  background: none;
+  font-size: 14px;
+  color: #ffffff;
+  text-indent: 50px;
+}
+.logo .l2 img {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.logo .l3 {
+  width: 450px;
+  height: 101px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo .l3 p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.logo .l3 select {
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.logo .l4 {
+  width: 250px;
+  height: 101px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo .l4 button {
+  width: 108px;
+  height: 38px;
+  background: none;
+  border: 0.5px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.section {
+  width: 100%;
+  height: 2694px;
+  background: linear-gradient(to right, #7c3e2d, #181E41, #181E41, #181E41);
+  display: flex;
+  justify-content: space-around;
+}
+.section .big-box {
+  width: 60%;
+  height: 2000px;
+}
+.section .big-box h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.section .big-box .box1 {
+  width: 100%;
+}
+.section .big-box .box1 .avatar {
+  width: 100%;
+}
+.section .big-box .box1 .avatar .ellips {
+  display: flex;
+  align-items: center;
+}
+.section .big-box .box1 .avatar .ellips span {
+  display: block;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.section .big-box .box1 .avatar .ellips span h6 {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+}
+.section .big-box .box1 .avatar .ellips span h6 span {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.section .big-box .box1 .avatar .ellips span p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.section .big-box .box1 .avatar p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+}
+.section .big-box .box1 .post {
+  width: 771px;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.section .big-box .box1 .post .like {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section .big-box .box1 .post .like button {
+  width: 90px;
+  height: 21px;
+  background: none;
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section .big-box .box1 .post .ava {
+  width: 773px;
+  height: 39px;
+  background-color: #464B67;
+  display: flex;
+  border-radius: 150px;
+  align-items: center;
+  text-indent: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+}
+.section .small-box {
+  width: 400px;
+  height: 773px;
+  background-color: #464B67;
+}
+
+.search {
+  width: 334px;
+  height: 453px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding-left: 20px;
+}
+.search input {
+  width: 344px;
+  height: 48px;
+  border-radius: 184px;
+  border: 0.5px solid #fff;
+  font-size: 14px;
+  color: #fff;
+  outline: none;
+  background: none;
+  text-indent: 50px;
+}
+.search .img1 {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.search .box {
+  width: 344px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.search .box h4 {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 600;
+  text-indent: 20px;
+}
+.search .box div {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search .box div span h1 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.search .box div span p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+}
+.search .box div .button {
+  width: 90px;
+  height: 29px;
+  border-radius: 145px;
+  background-color: rgb(108, 93, 211);
+  border: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+}
+.search .box .sp1 {
+  width: 100%;
+  font-size: 16px;
+  color: rgb(108, 93, 211);
+  text-align: end;
+  margin-right: 20px;
+}
+
+.footer {
+  width: 85%;
+  height: 202px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .cat1 h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6c5dd3;
+}
+.footer .cat1 p {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer .cat2 h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer .cat2 p {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer .cat3 h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer .cat3 p {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer .cat4 h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer .cat4 p {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}/*# sourceMappingURL=never.css.map */

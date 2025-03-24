@@ -1,0 +1,131 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(141, 139, 139, 0.411);
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: #000;
+    position: relative;
+    box-shadow: 0px 0px 5px 2px #000;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card::before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    rotate: (-280px);
+    width: 180%;
+    height: 130%;
+    background-image: conic-gradient(#ff00bb 0deg, #ff00bb 90deg, transparent 130deg,
+            transparent 180deg, #4330FF 180deg, #4330FF 270deg, transparent 310deg, transparent 360deg);
+    transition: transform 2s;
+}
+
+.card:hover::before {
+    transform: translate(-50%,-50%) rotate(-100deg);
+
+}
+
+.card::after {
+    content: '1-ATT-24';
+    color: #ddd;
+    position: absolute;
+    background-color: #000;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 242px;
+    width: 192px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+} */
+/* ---------------------------------- */
+/* body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(141, 139, 139, 0.411);
+}
+
+ .card{
+    width: 200px;
+    height: 250px;
+    background-color: #000;
+    position: relative;
+    box-shadow: 0px 0px 5px 2px #000;
+    cursor: pointer;
+   
+}
+
+
+button::after{
+    content: '';
+    width: 0;
+    height: 0;
+    transition: 1s;
+
+ }
+button:hover::after{
+   content: 'sotib olish';
+   background-color: bisque;
+   width: 120px;
+   height: 40px;
+   position: absolute;
+   margin-left:50px;
+
+}
+h1::after{
+    content: "hello world";
+    animation: h1 3s infinite;
+}
+@keyframes h1{
+    from{content: 'world 1';}
+    50%{content: '2';}
+    to{content: '3      ';}
+} */
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.match{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 350px;
+    animation: match 6s infinite;
+}
+@keyframes match{
+    from{margin-top: 250px;}    
+    10%{margin-top: 350px;}    
+    20%{margin-top: 150px;}    
+    30%{margin-top: 350px;}    
+    40%{margin-top: 50px;}    
+    50%{margin-top: 350px;}    
+    60%{margin-top: 0;}    
+    70%{margin-top: 350px;}    
+    80%{margin-top: 100px;}    
+    90%{margin-top: 350px;}    
+    95%{margin-top: 150px;}    
+    to{margin-top: 350px;}    
+}
